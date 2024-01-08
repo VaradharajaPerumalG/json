@@ -11,10 +11,11 @@ data1 = json.loads(games_str)
 data2 = json.loads(players_str)
 
 print(data1[0]["G_Name"])
-print(data2[1]["G_Name"])
+print(data2[1]["Name"])
 
 for rows in range(len(data1)):  
     for col in data1[rows]:
         print(data1[rows][col], end = " ")
-    print()
+
+
     
